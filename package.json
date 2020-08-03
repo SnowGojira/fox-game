@@ -4,7 +4,7 @@
   "description": "完整的js项目实战",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "parcel src/index.html"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.2.2",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {}
