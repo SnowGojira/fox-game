@@ -18,6 +18,9 @@ const gameState = {
     console.log(this.clock);
     return this.clock;
   },
+  userActionHandler(icon) {
+    console.log(icon);
+  },
 };
 
 export default gameState;
