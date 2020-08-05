@@ -27,7 +27,7 @@ export default function initButtons(userActionHandler) {
       toggleHighlighted(selectedIcon, true);
     } else {
       //选中,执行userActionHandler
-      //传入的selectedIcon，是状态码
+      //😡传入的selectedIcon，是状态码
       userActionHandler(ICONS[selectedIcon]);
     }
   }
