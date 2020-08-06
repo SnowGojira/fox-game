@@ -14,19 +14,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-.inner {
-  position: relative;
-}
-
 .frame {
   height: 762px;
   width: 762px;
+  position: relative;
+}
+
+.inner {
   position: relative;
 }
 
@@ -38,7 +39,7 @@ body {
   left: 67px;
 }
 
-.game.nignt {
+.game.night {
   width: 716px;
   top: 62px;
   left: -19px;
@@ -80,19 +81,19 @@ body {
 
 /* modal */
 
-.modal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 .modal-inner {
   background-color: blueviolet;
   color: white;
   padding: 20px;
   font-size: 20px;
   border-radius: 5px;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .modal:empty {
   display: none;
