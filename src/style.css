@@ -85,10 +85,15 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: blueviolet;
-  color: white;
 }
 
+.modal-inner {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
 .modal:empty {
   display: none;
 }
